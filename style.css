@@ -1,0 +1,41 @@
+body{
+    margin: 20px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.outer-container{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.inner-container{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.inner-container img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.inner-container .company-logo{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.inner-container h3{
+    margin: 5px;
+    font-size: 15px;
+}
+
+.inner-container p{
+    margin: 0;
+    font-size: 13px;
+}
